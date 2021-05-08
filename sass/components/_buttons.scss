@@ -23,8 +23,6 @@
   }
 }
 
-
-
 .filter-secondary {
   color: var(--primary-white);
   background-color: var(--accent);
@@ -46,7 +44,6 @@
   border-radius: 4px;
 }
 
-
 .modal-button {
   display: flex;
   align-items: center;
@@ -67,4 +64,5 @@
   &:focus {
     fill: var(--accent);
   }
+
 }

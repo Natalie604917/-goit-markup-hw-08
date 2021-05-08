@@ -8,8 +8,7 @@
 }
 
 .socials__item:not(:last-child) {
-  margin-right: 10px;
-}
+  margin-right: 10px;}
 
 .socials__link {
   display: flex;
@@ -28,6 +27,8 @@
     fill: var(--primary-white);
   }
 }
+
+
 .socials__link {
   &.socials__icon {
     transition-property: fill;

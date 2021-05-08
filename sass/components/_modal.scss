@@ -17,8 +17,7 @@
 }
 
 .modal {
-  min-height: 581px;
-  min-width: 528px;
+  max-height: 581px;
   background-color: var(--primary-white);
   padding-top: 40px;
   padding-bottom: 40px;
@@ -35,4 +34,15 @@
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen  and (max-width:1199px) {
+    max-width: 450px;
+    max-height: 609px;
+  }
+   @media screen and (min-width: 1200px){
+     max-width: 528px;}
 }
+
+
+
+

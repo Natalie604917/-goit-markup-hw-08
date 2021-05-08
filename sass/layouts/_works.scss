@@ -1,5 +1,13 @@
+.portfolio{
+  @media screen and  (max-width: 767.98px) {
+  padding: 60px 0;
+ }
+}
+.works {
+  justify-items: center;
+}
+
 .works__item {
-  --grid__item: 3;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -8,7 +16,21 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
+
+  @media screen and (min-width: 768px) {
+    --grid__item: 2;
+  }
+
+  @media screen and (min-width: 1200px) {
+    --grid__item: 3;
+  }
+
+  @media screen  and (max-width: 767.98px) {
+    --grid__item: 1;
+    max-width: 450px;
+  }
 }
+
 
 .works__link {
   text-decoration: none;
@@ -38,7 +60,9 @@
   font-size: 16px;
   line-height: 1.88;
 }
+
 .works__content {
+  border: 1px solid var(--card-border-color);
   padding: 20px 24px;
 }
 

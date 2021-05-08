@@ -1,3 +1,10 @@
+.gallery-section {
+  padding-top: 0;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
 .gallery__item {
   --grid__item: 3;
 }
@@ -18,7 +25,6 @@
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-white);
-  background: rgba(47, 48, 58, 0.8);
   padding-top: 27px;
   padding-bottom: 27px;
 }

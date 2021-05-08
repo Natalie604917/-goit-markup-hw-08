@@ -1,10 +1,16 @@
 .page-header {
+  position: relative;
   background-color: var(--primary-white);
   border-bottom: 1px solid var(--header-border-color);
 }
 
 .page-header__container,
-.navigation__wrapper {
+.navigation {
   display: flex;
   align-items: center;
+
+  @media screen and  (max-width:767px) {
+  min-width: 450px;
+ }
 }
+
