@@ -529,7 +529,6 @@ img {
 @media screen and (max-width: 767px) {
   .menu {
     flex-direction: column;
-    margin-bottom: 302px;
   }
 }
 
@@ -556,6 +555,13 @@ img {
   position: relative;
   display: block;
   color: var(--accent);
+}
+
+@media screen and (max-width: 767px) {
+  .menu__link--active {
+    font-size: 40px;
+    line-height: 1.18;
+  }
 }
 
 .menu__link {
@@ -636,6 +642,13 @@ img {
 
 .contacts {
   margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts {
+    position: absolute;
+    bottom: 134px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -1595,6 +1608,7 @@ label {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 768px;
   }
 }
 
@@ -1616,7 +1630,6 @@ label {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-page__wrapper {
     margin-inline: auto;
-    padding: 0 78px;
   }
   .footer-page .logo {
     padding: 0;

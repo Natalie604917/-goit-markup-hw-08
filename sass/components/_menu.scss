@@ -5,7 +5,6 @@
 
  @media screen and (max-width:767px){
  flex-direction: column;
- margin-bottom: 302px;
  }
 
  @media screen and (min-width:768px){
@@ -27,6 +26,10 @@
   position: relative;
   display: block;
   color: var(--accent);
+
+  @media screen and (max-width:767px){
+ font-size: 40px;
+ line-height: 1.18;}
 }
 .menu__link{
   position: relative;
@@ -38,7 +41,7 @@
     color: var(--accent);
   }
  @media screen and (max-width:767px){
-   font-size: 40px;
+ font-size: 40px;
  line-height: 1.18;}
 }
 

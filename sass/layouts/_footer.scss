@@ -18,6 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 768px;
  }
 }
 
@@ -39,7 +40,6 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-page__wrapper{
   margin-inline: auto;
-  padding: 0 78px;
   }
   .footer-page .logo{
     padding: 0;
