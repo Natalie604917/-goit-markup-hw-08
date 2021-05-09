@@ -23,8 +23,12 @@
   }
 }
 
-.menu__link,
 .menu__link--active{
+  position: relative;
+  display: block;
+  color: var(--accent);
+}
+.menu__link{
   position: relative;
   display: block;
   color: var(--title-text);
@@ -36,7 +40,6 @@
  @media screen and (max-width:767px){
    font-size: 40px;
  line-height: 1.18;}
-
 }
 
 .menu__link--active::after {

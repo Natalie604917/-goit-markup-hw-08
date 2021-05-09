@@ -57,7 +57,6 @@
 }
 
 .footer-page__wrapper--socials {
-
   justify-content: flex-start;
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -66,9 +65,7 @@
 }
 
 .adds {
-  display: block;
-  padding-top: 20px;
-  padding-left: 0;
+   display: block;
 }
 
 .adds__item:not(:last-child) {
@@ -91,9 +88,13 @@
   color: var(--primary-white);
 }
 
-.footer-page__secondary-title {
-  color: var(--primary-white);
-  margin-bottom: 20px;
+.footer-page__text {
+text-transform: uppercase;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+color: var(--primary-white);
+margin-bottom: 20px;
 }
 
 .socials__link--dark {
