@@ -466,7 +466,6 @@ img {
 }
 
 .modal-button {
-  z-index: 200;
   display: flex;
   align-items: center;
   position: absolute;
@@ -939,8 +938,10 @@ img {
   }
 }
 
-.modal-form {
-  max-width: 450px;
+@media screen and (max-width: 767px) {
+  .modal-form {
+    min-width: 370px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
