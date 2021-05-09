@@ -6,8 +6,10 @@
  @media screen and (max-width:767px){
  flex-direction: column;
  }
-
  @media screen and (min-width:768px){
+ margin-left: 88px;
+ }
+ @media screen and (min-width:1200px){
     margin-left: 93px;
     align-items: center;
   }
@@ -27,9 +29,14 @@
   display: block;
   color: var(--accent);
 
-  @media screen and (max-width:767px){
+@media screen and (max-width:767px){
  font-size: 40px;
- line-height: 1.18;}
+ line-height: 1.18;
+}
+@media screen and (max-width:1199px){
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 }
 .menu__link{
   position: relative;
@@ -43,6 +50,11 @@
  @media screen and (max-width:767px){
  font-size: 40px;
  line-height: 1.18;}
+
+ @media screen and (max-width:1199px){
+   padding-top: 32px;
+   padding-bottom: 32px;
+ }
 }
 
 .menu__link--active::after {
@@ -63,10 +75,7 @@
 }
 }
 
-
 .web{
-  position: absolute;
-  bottom: 48px;
   text-align: center;
 
  @media screen and (min-width: 768px){

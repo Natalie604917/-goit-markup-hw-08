@@ -50,7 +50,22 @@
    @media screen and (min-width: 768px){
    display: flex;
    flex-grow: 1;
+   align-items: center;
   }
 }
 
 
+.mobile-contacts{
+  display: flex;
+  @media screen and (max-width: 767px){
+  display: block;
+  position: absolute;
+  bottom: 48px;
+}
+ @media screen and (min-width: 768px)and (max-width: 1199px){
+  flex-grow: 1;
+ }
+@media screen and (min-width: 1200px){
+  margin-left: auto;
+}
+}

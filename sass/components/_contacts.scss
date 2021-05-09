@@ -1,10 +1,6 @@
 .contacts {
   margin-left: auto;
 
-  @media screen and (max-width:768px) {
-  position: absolute;
-  bottom: 134px;
-  }
   @media screen and (max-width: 1199px){
 flex-direction: column;
  }
@@ -13,10 +9,19 @@ flex-direction: column;
 .contacts__item:not(:last-child) {
 
  @media screen and (min-width:768px) and (max-width:1199px){
-  padding-bottom: 10px;
+   padding-top: 20px;
   }
  @media screen and (min-width:1200px){
   margin-right: 50px;
+  }
+}
+.contacts__item:last-child {
+   @media screen and (min-width:768px) and (max-width:1199px){
+   padding-top: 10px;
+   padding-bottom: 19px;
+  }
+  @media screen and (max-width:768px){
+    margin-bottom: 64px;
   }
 }
 
