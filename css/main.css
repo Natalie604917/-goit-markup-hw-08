@@ -567,10 +567,11 @@ img {
   .menu__link--active {
     font-size: 40px;
     line-height: 1.18;
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .menu__link--active {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -591,10 +592,11 @@ img {
   .menu__link {
     font-size: 40px;
     line-height: 1.18;
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .menu__link {
     padding-top: 32px;
     padding-bottom: 32px;
