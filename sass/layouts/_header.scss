@@ -8,9 +8,10 @@
 .navigation {
   display: flex;
   align-items: center;
-
+  
   @media screen and  (max-width:767px) {
-  min-width: 450px;
+  max-width: 450px;
+  flex-grow: 1;
  }
 }
 

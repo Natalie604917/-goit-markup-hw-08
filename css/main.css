@@ -91,7 +91,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -1076,7 +1076,7 @@ label {
 
 @media screen and (max-width: 767.98px) {
   .mailing__input {
-    min-width: 450px;
+    max-width: 450px;
   }
 }
 
@@ -1146,7 +1146,8 @@ label {
 @media screen and (max-width: 767px) {
   .page-header__container,
   .navigation {
-    min-width: 450px;
+    max-width: 450px;
+    flex-grow: 1;
   }
 }
 
