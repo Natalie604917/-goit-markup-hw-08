@@ -466,6 +466,7 @@ img {
 }
 
 .modal-button {
+  z-index: 200;
   display: flex;
   align-items: center;
   position: absolute;
